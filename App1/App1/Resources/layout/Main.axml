@@ -23,4 +23,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/TranslatedPhoneWord" />
+    <Button
+        android:text="Crashes_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Crashes_Button" />
 </LinearLayout>
