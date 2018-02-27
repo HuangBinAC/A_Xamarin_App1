@@ -16,11 +16,11 @@ namespace App1
     {
         protected override void OnCreate(Bundle bundle)
         {
-            base.OnCreate(bundle);
+            base.OnCreate(bundle);         
             AppCenter.SetLogUrl("https://in-staging-south-centralus.staging.avalanch.es");
             Push.SetSenderId("359445903465");
             AppCenter.Start("3519e059-856f-4e62-a320-c8dc5d28db94",
-                   typeof(Analytics), typeof(Crashes), typeof(Distribute), typeof(Push));
+                    typeof(Distribute), typeof(Analytics), typeof(Crashes), typeof(Push));
 
             // Set our view from the "main" layout resource
             SetContentView (Resource.Layout.Main);
